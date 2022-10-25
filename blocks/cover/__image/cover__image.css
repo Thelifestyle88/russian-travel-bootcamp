@@ -1,0 +1,12 @@
+.cover__image {
+    object-fit: fill;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    opacity: .7;
+    transition: opacity 1.5s ease-in-out;
+}
+.cover__image:hover {
+    cursor: pointer;
+    opacity: 0.2;
+}

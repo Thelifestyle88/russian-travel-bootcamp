@@ -1,0 +1,25 @@
+.place__paragraph {
+    margin: 0;
+    padding: 0;
+    font-size: 1.125rem;
+    line-height: 29.34px;
+    grid-area: place__paragraph;
+    align-self: flex-start;
+}
+
+@media screen and (max-width: 768px) {
+    .place__paragraph { 
+    font-size: 1rem;
+    line-height: 163%;
+ }
+ }
+
+ @media screen and (max-width: 320px) {
+    .place__paragraph { 
+    font-size: 1rem;
+    line-height: 26.08px;
+    max-width: 90%;
+    justify-self: center;
+    margin: 32px 0 0;
+ }
+ }

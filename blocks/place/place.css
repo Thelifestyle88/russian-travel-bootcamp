@@ -1,0 +1,25 @@
+.place {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(min-content, max-content));
+    grid-template-areas: 
+    "place__title place__website"
+    "place__title place__website"
+    "place__image place__paragraph"
+    "place__image place__paragraph_two";
+    column-gap: 4%;
+    margin:0 auto 80px;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 320px) {
+    .place { 
+        grid-template-areas: 
+        "place__title"
+        "place__website"
+        "place__image"
+        "place__paragraph"
+        "place__paragraph_two";
+        margin: 0 auto 50px;
+ }
+ }
