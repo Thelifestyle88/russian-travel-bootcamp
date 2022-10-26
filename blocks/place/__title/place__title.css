@@ -6,7 +6,6 @@
     font-weight: 900;
     grid-area: place__title;
     max-width: 460px;
-    word-break: break-all;
 }
 
 @media screen and (max-width: 1024px) {
@@ -20,6 +19,7 @@
      font-size: 2.625rem;
      line-height: 2.875rem;
      max-width: 340px;
+     word-break: break-all;
  }
  }
 
