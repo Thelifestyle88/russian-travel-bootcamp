@@ -4,14 +4,16 @@
     line-height: 28px;
     font-weight: 400;
     text-decoration: none;
-}
-
-.header__lang-link:nth-of-type(1) {
+    transition: opacity 1s ease-in-out;
     margin-right: 18px;
 }
 
-.header__lang-link:focus {
-    text-decoration: underline;
+.header__lang-link:last-of-type {
+    margin-right: 0;
+}
+
+.header__lang-link:hover {
+    opacity: 0.8;
 }
 
 @media screen and (max-width: 320px) {

@@ -1,25 +1,29 @@
 .place {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(2, minmax(min-content, max-content));
+    grid-template-columns: repeat(2, 48%);
     grid-template-areas: 
     "place__title place__website"
     "place__title place__website"
-    "place__image place__paragraph"
-    "place__image place__paragraph_two";
+    "place__image place__paragraphs"
+    "place__image place__paragraphs";
     column-gap: 4%;
     margin:0 auto 80px;
     justify-content: space-between;
 }
 
+.place:last-of-type {
+    margin: 0 auto;
+}
+
 @media screen and (max-width: 320px) {
     .place { 
+        grid-template-columns: 100%;
         grid-template-areas: 
         "place__title"
         "place__website"
         "place__image"
-        "place__paragraph"
-        "place__paragraph_two";
+        "place__paragraphs";
         margin: 0 auto 50px;
  }
  }

@@ -9,6 +9,8 @@
     line-height: 1.125rem;
 }
 
+
+
 @media screen and (max-width: 320px) {
     .footer__links { 
      width: 58.1%;

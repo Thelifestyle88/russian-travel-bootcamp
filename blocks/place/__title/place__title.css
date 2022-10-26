@@ -3,8 +3,10 @@
     padding: 0;
     font-size: 4.5rem;
     line-height: 4.75rem;
+    font-weight: 900;
     grid-area: place__title;
     max-width: 460px;
+    word-break: break-all;
 }
 
 @media screen and (max-width: 1024px) {
